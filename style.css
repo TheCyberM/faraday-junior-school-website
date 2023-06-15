@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,300&display=swap');
+
+* {
+    font-family: Montserrat;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #e0e0e0;
+}
+
+.navigation a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    padding: 20px;
+}
+
+.name {
+
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+header {
+    background-color: #1B1C1E;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.abouts-section {
+    background-image: url("background.jpg") no-repeat;
+}
