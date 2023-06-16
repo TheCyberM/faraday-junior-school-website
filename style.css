@@ -28,7 +28,7 @@ body {
     font-weight: lighter;
 }
 
-header {
+.bar {
     background-color: #1B1C1E;
     width: 100%;
     position: fixed;
@@ -41,5 +41,7 @@ header {
 }
 
 .abouts-section {
-    background-image: url("background.jpg") no-repeat;
+    padding: 2000px;
+    background: url("polygon-scatter.png") no-repeat;
+    background-size: 1300px 512px;
 }
