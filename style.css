@@ -12,6 +12,10 @@ body {
     background-color: #e0e0e0;
 }
 
+p {
+    background-image: url("polygon-scatter.png") no-repeat;
+}
+
 .navigation a {
     color: white;
     text-decoration: none;
@@ -42,6 +46,6 @@ body {
 
 .abouts-section {
     padding: 2000px;
-    background: url("polygon-scatter.png") no-repeat;
+    background: url("circle-scatter.png") no-repeat;
     background-size: 1300px 512px; 
 }
