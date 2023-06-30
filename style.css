@@ -48,7 +48,7 @@ body {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: url("backgrounds/plain-offwhite.png") no-repeat;
+    background: url("images/plain-offwhite.png") no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -78,3 +78,19 @@ span {
     color: #1b1c1e;
 }
 
+.section2 {
+    min-height: 25vh;
+    margin-left: 2cm;
+    margin-right: 4cm;
+}
+
+.section2 h1 {
+    float: right;
+    align-items: center;
+}
+
+.success {
+    height: 22vh;
+    display: inline-flex;
+    float: right;
+}
