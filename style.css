@@ -20,6 +20,10 @@ body {
     padding: 20px;
 }
 
+.navigation a:hover {
+    color: #3C6E71;
+}
+
 .name {
     color: white;
     text-decoration: none;
@@ -50,6 +54,27 @@ body {
     background-attachment: fixed;
 }
 
+.faraday {
+    height: 70vh;
+    display: inline-flex;
+    float: right;
+}
+
 .slogan {
     margin-left: 4cm;
+    margin-right: 2cm;
+    font-weight: normal;
+    color: #3C6E71;
 }
+
+span {
+    font-weight: bold;
+    color: #1B1C1E;
+    text-decoration: underline;
+}
+
+.slogan a {
+    text-decoration: none;
+    color: #1b1c1e;
+}
+
