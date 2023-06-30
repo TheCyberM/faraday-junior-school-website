@@ -21,7 +21,6 @@ body {
 }
 
 .name {
-
     color: white;
     text-decoration: none;
     font-size: 20px;
@@ -45,8 +44,12 @@ body {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: url("backgrounds/blurry-gradient.png") no-repeat;
+    background: url("backgrounds/plain-offwhite.png") no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+}
+
+.slogan {
+    margin-left: 4cm;
 }
