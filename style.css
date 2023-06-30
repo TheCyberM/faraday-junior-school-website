@@ -41,6 +41,12 @@ body {
 }
 
 .abouts-section {
-    padding: 2000px;
-    background: url("circle-scatter-bg.png") no-repeat;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url("backgrounds/blurry-gradient.png") no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
