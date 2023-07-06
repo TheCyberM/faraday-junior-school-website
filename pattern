@@ -1,7 +1,23 @@
-#1B1C1E
-#e0e0e0
--------------
-#353535
-#3C6E71
-#D9D9D9
-#284B63
+https://coolors.co/palette/1b1c1e-136f63-ffffff-eeeeee
+/* CSV */
+1b1c1e,136f63,ffffff,eeeeee
+
+/* With # */
+#1b1c1e, #136f63, #ffffff, #eeeeee
+
+/* Array */
+["1b1c1e","136f63","ffffff","eeeeee"]
+
+/* Object */
+{"Eerie black":"1b1c1e","Pine green":"136f63","White":"ffffff","Anti-flash white":"eeeeee"}
+
+/* Extended Array */
+[{"name":"Eerie black","hex":"1b1c1e","rgb":[27,28,30],"cmyk":[10,7,0,88],"hsb":[220,10,12],"hsl":[220,5,11],"lab":[10,0,-2]},{"name":"Pine green","hex":"136f63","rgb":[19,111,99],"cmyk":[83,0,11,56],"hsb":[172,83,44],"hsl":[172,71,25],"lab":[42,-28,-1]},{"name":"White","hex":"ffffff","rgb":[255,255,255],"cmyk":[0,0,0,0],"hsb":[0,0,100],"hsl":[0,0,100],"lab":[100,0,0]},{"name":"Anti-flash white","hex":"eeeeee","rgb":[238,238,238],"cmyk":[0,0,0,7],"hsb":[0,0,93],"hsl":[0,0,93],"lab":[94,0,0]}]
+
+/* XML */
+<palette>
+  <color name="Eerie black" hex="1b1c1e" r="27" g="28" b="30" />
+  <color name="Pine green" hex="136f63" r="19" g="111" b="99" />
+  <color name="White" hex="ffffff" r="255" g="255" b="255" />
+  <color name="Anti-flash white" hex="eeeeee" r="238" g="238" b="238" />
+</palette>

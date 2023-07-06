@@ -9,7 +9,7 @@
 }
 
 body {
-    background-color: #e0e0e0;
+    background-color: #EEEEEE;
 }
 
 .navigation a {
@@ -21,7 +21,7 @@ body {
 }
 
 .navigation a:hover {
-    color: #3C6E71;
+    color: #136F63;
 }
 
 .name {
@@ -48,13 +48,9 @@ body {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: url("images/plain-offwhite.png") no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
 }
 
-.faraday {
+.faraday-img {
     height: 70vh;
     display: inline-flex;
     float: right;
@@ -64,7 +60,7 @@ body {
     margin-left: 4cm;
     margin-right: 2cm;
     font-weight: normal;
-    color: #3C6E71;
+    color: #136F63;
 }
 
 span {
@@ -75,22 +71,25 @@ span {
 
 .slogan a {
     text-decoration: none;
-    color: #1b1c1e;
+    color: #136F63;
+    font-weight: normal;
+    text-decoration: underline;
 }
 
 .section2 {
-    min-height: 25vh;
-    margin-left: 2cm;
-    margin-right: 4cm;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
 }
 
 .section2 h1 {
     float: right;
-    align-items: center;
 }
 
 .success {
-    height: 22vh;
+    height: 40vh;
     display: inline-flex;
-    float: right;
+    float: left;
+    margin-left: 4cm;
 }
