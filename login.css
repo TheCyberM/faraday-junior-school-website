@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,300&display=swap');
+
+* {
+  font-family: Montserrat;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #EEEEEE;
+}
+
+form {
+  height: auto;
+  width: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+  padding: 50px;
+}
+
+h1 {
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 8px;
+  color: #1B1C1E;
+}
+
+.user,
+.pass {
+  margin: auto;
+  display: block;
+  margin-top: 10px;
+  color: #1B1C1E;
+  padding: 12px;
+  border: solid #1B1C1E;
+  border-radius: 10px;
+  width: 200px;
+  outline: none;
+  transition: 0.25s;
+}
+
+.login {
+  margin: auto;
+  display: block;
+  margin-top: 20px;
+  color: #1B1C1E;
+  padding: 10px;
+  border: solid #1B1C1E;
+  border-radius: 10px;
+  width: 100px;
+  outline: none;
+  transition: 0.25s;
+}
+
+.user:focus, .pass:focus {
+  border: solid #136F63;
+  border-radius: 15px;
+}
+
+.login:hover {
+  border: solid #136F63;
+  border-radius: 15px;
+}
