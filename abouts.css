@@ -13,9 +13,9 @@ body {
 }
 
 div {
-    margin: 4cm;
-    display: inline-flex;
+    margin: 2cm;
     align-items: center;
+    display: inline-block;
 }
 
 .triangle {
@@ -29,10 +29,23 @@ img {
 }
 
 ol {
-    display: flex;
+    display: inline-block;
 }
 
 .label {
     font-size: 25px;
+    color: #136F63;
+    content: "▶";
 }
 
+.class {
+    font-size: 20px;
+    padding: 7px;
+    display: none;
+}
+
+.label:hover > .class::after {
+    display: block;
+    position: relative;
+    z-index: 1000;
+}
