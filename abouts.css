@@ -2,8 +2,6 @@
 
 * {
     font-family: Montserrat;
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
@@ -13,39 +11,16 @@ body {
 }
 
 div {
-    margin: 2cm;
-    align-items: center;
     display: inline-block;
-}
-
-.triangle {
-    border: none;
-    float: left;
-    padding: 20px;
-}
-
-img {
-    height: 20px;
-}
-
-ol {
-    display: inline-block;
+    margin: auto;
 }
 
 .label {
-    font-size: 25px;
+    list-style-type: circle;
     color: #136F63;
-    content: "▶";
+    font-weight: bold;
 }
 
 .class {
-    font-size: 20px;
-    padding: 7px;
-    display: none;
-}
-
-.label:hover > .class::after {
     display: block;
-    position: relative;
-    z-index: 1000;
 }
